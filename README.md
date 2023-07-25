@@ -18,6 +18,8 @@ ETC利用明細（利用実績）は定期的にログインしないとIDを無
 
 # ETCマイレージサービス
 
+[ETCマイレージ](https://www.smile-etc.jp/)は、利用実績に応じてポイント還元がある。2023-07-25現在では、約0.25%の還元がある。
+
 ```shell
 bin/etc-points-login.js USER_ID PASSWORD
 ```
