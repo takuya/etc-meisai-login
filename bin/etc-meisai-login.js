@@ -7,7 +7,7 @@ let main = async (id , pw)=>{
 }
 
 
-if ( ! process.argv.length != 4 ){
+if ( process.argv.length != 4 ){
   console.log('使い方');
   console.log(`node bin/${process.argv[1].split(/\//).pop()} $USER $PASS`);
   return;
